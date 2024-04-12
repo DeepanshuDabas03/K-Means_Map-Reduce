@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+package kmeans;
+
+message Point {
+    repeated double coordinates = 1;  // Represents coordinates of a point
+}
+
+message Centroid {
+    int32 id = 1;
+    repeated double coordinates = 2;
+}
+
+message MapperRequest {
+    string data_split = 1;                 // Range of input data for the mapper 
+    repeated Centroid centroids = 2;       // Current centroids
+    int32 iteration_number = 3;            // Iteration number
+}
+
+message MapperResponse {
+    enum Status { SUCCESS = 0; FAILURE = 1; }
+    Status status = 1;                     // Indicates success or failure
+}
+
+message KeyValuePair {                  
+    int32 key = 1;                         // Centroid ID
+    Point value = 2;                       // Associated point
+}
+
+message PartitionDataRequest {
+    int32 reducer_id = 1;                  // Reducer ID requesting the partition
+}
+
+message PartitionData {
+    repeated KeyValuePair key_value_pairs = 1;  // Key-Value pairs in the partition
+}
+
+message ReducerRequest {
+    repeated Centroid centroids = 1;       // Current centroids
+    int32 iteration_number = 2;            // Iteration number
+    repeated string mapper_addresses = 3;  // List of mapper addresses
+}
+
+message ReducerResponse {
+    enum Status { SUCCESS = 0; FAILURE = 1; }
+    Status status = 1;
+}
+
+message GetCentroidsRequest { 
+    // Empty - No specific data needed for this request 
+}
+
+message GetCentroidsResponse {
+    repeated Centroid centroids = 1;       // Updated centroids
+}
+
+service MapperService {
+    rpc RunMapTask (MapperRequest) returns (MapperResponse) {}
+    rpc GetPartitionData(PartitionDataRequest) returns (PartitionData) {}  
+}
+
+service ReducerService {
+    rpc RunReduceTask (ReducerRequest) returns (ReducerResponse) {}
+    rpc GetCentroids(GetCentroidsRequest) returns (GetCentroidsResponse) {} 
+}

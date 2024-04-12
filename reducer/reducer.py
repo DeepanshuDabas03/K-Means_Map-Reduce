@@ -29,7 +29,7 @@ def calculate_new_centroid(points,centroid_id):
     )
 
 
-class ReducerServer(kmeans_pb2_grpc.ReducerServiceServicer,kmeans_pb2_grpc.Mapper):
+class ReducerServer(kmeans_pb2_grpc.ReducerServiceServicer,kmeans_pb2_grpc.MapperService):
     def __init__(self,reducer_id):
         self.reducer_id=reducer_id
     def log(self,message):

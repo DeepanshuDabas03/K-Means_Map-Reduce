@@ -38,7 +38,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                 current_split_end += lines_per_split
         return splits
     
-    def load_data(filename):
+    def load_data(self,filename):
         points = []
         with open(filename, "r") as f:
             for line in f:
@@ -46,7 +46,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                 points.append(kmeans_pb2.Point(coordinates=coordinates))
         return points
     
-    def initialize_centroids(points, k):
+    def initialize_centroids(self,points, k):
         return random.sample(points, k)
     
     def log(self,message):
@@ -67,7 +67,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
             mapper_threads = []
 
             for i, split in enumerate(data_splits):
-                thread = threading.Thread(target=self.start_mapper, args=(i, f"{split[0]}-{split[1]}", centroids, iteration))
+                thread = threading.Thread(target=self.start_mapper, args=(i+1, f"{split[0]}-{split[1]}", centroids, iteration))
                 thread.start()
                 mapper_threads.append(thread)
 
@@ -164,7 +164,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
             reducer_address = f'localhost:{6000 + i + 1}'
             with grpc.insecure_channel(reducer_address) as channel:
                 stub = kmeans_pb2_grpc.ReducerServiceStub(channel)
-                response = stub.GetCentroids(kmeans_pb2.Empty())
+                response = stub.GetCentroids(kmeans_pb2.GetCentroidsRequest)
                 centroids.extend(response.centroids)
         return centroids
 
