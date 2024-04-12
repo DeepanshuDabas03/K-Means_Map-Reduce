@@ -9,8 +9,8 @@ import kmeans_pb2  #type:ignore
 import kmeans_pb2_grpc #type:ignore
 
 
-class master(mappers,reducers,centroids,iterations,kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServiceServicer): # type: ignore
-    def __init__(self):
+class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServiceServicer): # type: ignore
+    def __init__(self,mappers,reducers,centroids,iterations):
         self.mappers = mappers # type: ignore
         self.reducers = reducers # type: ignore
         self.centroids = centroids # type: ignore 
@@ -169,12 +169,12 @@ class master(mappers,reducers,centroids,iterations,kmeans_pb2_grpc.MapperService
         return centroids
 
 
-if __name__== "main":
+if __name__== "__main__":
     mappers=int(input("Enter the number of mappers: "))
     reducers=int(input("Enter the number of reducers: "))
     centroids=int(input("Enter the number of centroids: "))
     iterations=int(input("Enter the number of iterations: "))
-    masterNode = master(mappers,reducers,centroids,iterations)
+    masterNode = master(mappers=mappers,reducers=reducers,centroids=centroids,iterations=iterations)
     masterNode.start()
 
     
