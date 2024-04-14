@@ -46,8 +46,13 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                 points.append(kmeans_pb2.Point(coordinates=coordinates))
         return points
     
-    def initialize_centroids(self,points, k):
-        return random.sample(points, k)
+    def initialize_centroids(self, points, k):
+        selected_points = random.sample(points, k) 
+        centroids = []
+        for i, point in enumerate(selected_points):
+            centroid = kmeans_pb2.Centroid(id=i, coordinates=point.coordinates) 
+            centroids.append(centroid)
+        return centroids 
     
     def log(self,message):
         os.makedirs("dump", exist_ok=True)
@@ -89,27 +94,29 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
             for centroid in centroids:
                 self.log(str(centroid))
 
-    def restart_worker(self, worker_type, worker_id):  # Simplified restart
+    def restart_worker(self, worker_type, worker_id,centroids,iteration_number,data_split=None):  # Simplified restart
         self.log(f"Restarting failed {worker_type}  {worker_id}")
         if worker_type == "Mapper":
-            self.start_mapper(worker_id) 
+            self.start_mapper(worker_id,data_split=data_split,centroids=centroids,iteration_number=iteration_number) 
         elif worker_type == "Reducer":
-            self.start_reducer(worker_id)
+            self.start_reducer(worker_id,centroids=centroids,iteration_number=iteration_number)
 
     def start_mapper(self, mapper_id, data_split, centroids, iteration_number):
-        mapper_address = f'localhost:{5000 + mapper_id + 1}'
+        mapper_address = f'localhost:{5000 + mapper_id }'
         process = subprocess.Popen(["python", "mapper/mapper.py", str(mapper_id),str(self.reducers)])
 
         self.monitor_mapper(mapper_id, process, mapper_address, data_split, centroids, iteration_number)
 
     def monitor_mapper(self, mapper_id, process, mapper_address, data_split, centroids, iteration_number):
-        try:
-            process.wait(timeout=self.WORKER_TIMEOUT)  # Wait for mapper to complete
-        except subprocess.TimeoutExpired:
-            self.restart_worker("Mapper", mapper_id)
-            return
+        # try:
+        #     process.wait(timeout=self.WORKER_TIMEOUT)  # Wait for mapper to complete
+        # except subprocess.TimeoutExpired:
+        #     self.restart_worker("Mapper", mapper_id,centroids,iteration_number,data_split=data_split)
+        #     process.terminate()
+        #     process.kill()
+        #     return
 
-        # gRPC communication after process is ready
+       
         with grpc.insecure_channel(mapper_address) as channel:
             stub = kmeans_pb2_grpc.MapperServiceStub(channel)
             try:
@@ -124,21 +131,26 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                 else:
                     self.log(f"Mapper {mapper_id}: gRPC RunMapTask response - SUCCESS")
             except grpc.RpcError as e:
+
                 self.log(f"Mapper {mapper_id} gRPC Error: {e}")
-                self.restart_worker("Mapper", mapper_id)
+                process.terminate()
+                process.kill()
+                self.restart_worker("Mapper", mapper_id,centroids,iteration_number,data_split=data_split)
 
     def start_reducer(self, reducer_id, centroids, iteration_number):
-        reducer_address = f'localhost:{6000 + reducer_id + 1}'  # Reducers on port 6001,6002,6003........
+        reducer_address = f'localhost:{6000 + reducer_id }'  # Reducers on port 6001,6002,6003........
         process = subprocess.Popen(["python", "reducer/reducer.py", str(reducer_id)])
 
         self.monitor_reducer(reducer_id, process, reducer_address, centroids, iteration_number)
 
     def monitor_reducer(self, reducer_id, process, reducer_address, centroids, iteration_number):
-        try:
-            process.wait(timeout=self.WORKER_TIMEOUT)  # Wait for reducer to complete
-        except subprocess.TimeoutExpired:
-            self.restart_worker("Reducer", reducer_id)
-            return
+        # try:
+        #     process.wait(timeout=self.WORKER_TIMEOUT)  # Wait for reducer to complete
+        # except subprocess.TimeoutExpired:
+        #     process.terminate()
+        #     process.kill()
+        #     self.restart_worker("Reducer", reducer_id,centroids,iteration_number)
+        #     return
         mapper_addresses = [f'localhost:{5000 + i + 1}' for i in range(self.mappers)]
         # gRPC communication after process is ready
         with grpc.insecure_channel(reducer_address) as channel:
@@ -156,7 +168,9 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                     self.log(f"Reducer {reducer_id}: gRPC RunReduceTask response - SUCCESS")
             except grpc.RpcError as e:
                 self.log(f"Reducer {reducer_id} gRPC Error: {e}")
-                self.restart_worker("Reducer", reducer_id)
+                process.terminate()
+                process.kill()
+                self.restart_worker("Reducer", reducer_id,centroids,iteration_number)
 
     def compile_centroids(self):
         centroids = []

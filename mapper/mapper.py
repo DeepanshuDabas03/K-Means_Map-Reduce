@@ -7,16 +7,17 @@ import kmeans_pb2 #type:ignore
 import kmeans_pb2_grpc  #type:ignore
 
 def log(message, mapper_id):
+    os.makedirs("dump", exist_ok=True)
     with open(f"dump/Mapper{mapper_id}.txt", "a") as f:
         f.write(message + "\n")
 
 def load_points_from_range(data_range, mapper_id):
     start_line, end_line = (int(x) for x in data_range.split("-"))
     points = []
-    with open("points.txt", "r") as f:
+    with open("input/points.txt", "r") as f:
         for i, line in enumerate(f):
             if start_line <= i < end_line:
-                coordinates = [float(x) for x in line.strip().split()]
+                coordinates = [float(x) for x in line.strip().split(", ")]
                 points.append(kmeans_pb2.Point(coordinates=coordinates))
     log(f"Loaded {len(points)} points from range {data_range}", mapper_id)
     return points
@@ -61,9 +62,9 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
         
         # Partition Output
         partitions = partition_output(key_value_pairs, num_reducers, self.mapper_id)
-        os.makedirs(f"Mappers/M{mapper_id}", exist_ok=True) # Create directory if it doesn't exist
+        os.makedirs(f"M{mapper_id}", exist_ok=True) # Create directory if it doesn't exist
         for i, partition in enumerate(partitions):
-            with open(f"Mappers/M{self.mapper_id}/partition_{i}.txt", "w") as f: 
+            with open(f"M{self.mapper_id}/partition_{i}.txt", "w") as f: 
                 for centroid_id, point in partition:
                     f.write(f"{centroid_id} {str(point)}\n")  # Adjust serialization if needed
 
@@ -72,9 +73,8 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
     
     def GetPartitionData(self, request, context):
         reducer_id = request.reducer_id
-        partition_file = f"Mappers/M{self.mapper_id}/partition_{reducer_id}.txt"
+        partition_file = f"M{self.mapper_id}/partition_{reducer_id}.txt"
         key_value_pairs = []
-
         if os.path.exists(partition_file):
             with open(partition_file, "r") as f:
                 for line in f:
@@ -93,6 +93,13 @@ if __name__ == "__main__":
     num_reducers = int(sys.argv[2])  #number of reducers as an argument
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))  
     kmeans_pb2_grpc.add_MapperServiceServicer_to_server(MapperServer(num_reducers, mapper_id), server)
+    log(f"Starting server on port {5000 + mapper_id}", mapper_id)
     server.add_insecure_port(f'[::]:{5000 + mapper_id}')
-    server.start()
-    server.wait_for_termination()
+    try:  
+        server.start()
+        server.wait_for_termination()
+    except KeyboardInterrupt:
+        server.stop(0) 
+    except Exception as e:
+        log(f"Unexpected error: {e}", mapper_id)
+        server.stop(0)
