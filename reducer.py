@@ -41,7 +41,8 @@ class ReducerServer(kmeans_pb2_grpc.ReducerServiceServicer,kmeans_pb2_grpc.Mappe
         centroids = request.centroids
         iteration_number=request.iteration_number
         mapper_addresses=request.mapper_addresses
-        self.log(f"Reducer {self.reducerId}: Starting reduce task, iteration {iteration_number}, mapper addresses: {mapper_addresses}")
+        self.log(f"Iteration Number: {iteration_number}")
+        self.log(f"Reducer {self.reducerId}: Starting reduce task, mapper addresses: {mapper_addresses}")
         key_value_pairs = load_key_value_pairs(mapper_addresses)
         self.log(f"Reducer {self.reducerId}: Fetched data from mappers") 
         # Group points by centroid ID

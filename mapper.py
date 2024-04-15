@@ -46,6 +46,7 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
         centroids = request.centroids
         num_reducers = self.reducers
         iteration_number = request.iteration_number
+        log(f"Starting map task for iteration {iteration_number}", self.mapper_id)
 
         key_value_pairs = []
         for point in points:
