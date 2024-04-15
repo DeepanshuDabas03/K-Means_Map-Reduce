@@ -66,7 +66,8 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
         for i, partition in enumerate(partitions):
             with open(f"M{self.mapper_id}/partition_{i}.txt", "w") as f: 
                 for centroid_id, point in partition:
-                    f.write(f"{centroid_id} {str(point)}\n")  # Adjust serialization if needed
+                    point_str = " ".join(str(coord) for coord in point.coordinates)
+                    f.write(f"{centroid_id} {point_str}\n")  # Adjust serialization if needed
 
         log(f"Completed map task for iteration {iteration_number}", self.mapper_id)
         return kmeans_pb2.MapperResponse(status=kmeans_pb2.MapperResponse.Status.SUCCESS)
@@ -79,8 +80,9 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
             with open(partition_file, "r") as f:
                 for line in f:
                     try:
-                        centroid_id, point_str = line.strip().split()
-                        point = kmeans_pb2.Point()  
+                    
+                        centroid_id, x,y = line.strip().split()
+                        point = kmeans_pb2.Point(coordinates=[float(x), float(y)]) 
                         # Deserialize the Point object (if needed)
                         key_value_pairs.append((int(centroid_id), point))
                     except Exception as e:

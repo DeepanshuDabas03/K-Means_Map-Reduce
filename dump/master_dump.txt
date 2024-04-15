@@ -1,0 +1,268 @@
+Centroids (Initial):
+coordinates: 30.934672692775134
+coordinates: 62.341218349175954
+
+id: 1
+coordinates: 12.630863179096908
+coordinates: 96.831259939030815
+
+id: 2
+coordinates: 2.5525739648933232
+coordinates: 17.536987084919097
+
+Iteration: 1
+Mapper 4: gRPC RunMapTask response - SUCCESS
+Mapper 2: gRPC RunMapTask response - SUCCESS
+Mapper 5: gRPC RunMapTask response - SUCCESS
+Mapper 1: gRPC RunMapTask response - SUCCESS
+Reducer 3: gRPC RunReduceTask response - SUCCESS
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:56.2170585+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:56.2422685+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:45:56.2170585+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:56.2218871+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:56.2530603+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:45:56.2218871+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  1
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.", grpc_status:2, created_time:"2024-04-15T06:45:57.0631172+00:00"}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\", grpc_status:2, created_time:\"2024-04-15T06:45:57.0631172+00:00\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:45:57.0865838+00:00"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:57.0629525+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:57.0972238+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:45:57.0629525+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:57.9140424+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:45:57.9140424+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:45:57.9377189+00:00"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.", grpc_status:2, created_time:"2024-04-15T06:45:57.9138582+00:00"}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\", grpc_status:2, created_time:\"2024-04-15T06:45:57.9138582+00:00\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:45:57.9489692+00:00"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:58.7546665+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:45:58.7546665+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:45:58.7775563+00:00"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:58.7709175+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:58.7927093+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:45:58.7709175+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.", grpc_status:2, created_time:"2024-04-15T06:45:59.6221125+00:00"}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:59.6498178+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\", grpc_status:2, created_time:\"2024-04-15T06:45:59.6221125+00:00\"}\"\n>"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:45:59.6423817+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:45:59.6423817+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:45:59.6698515+00:00"}"
+>
+Restarting failed Reducer  2
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:00.4805658+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:00.5020043+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:00.4805658+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.", grpc_status:2, created_time:"2024-04-15T06:46:00.491522+00:00"}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:00.5170926+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\", grpc_status:2, created_time:\"2024-04-15T06:46:00.491522+00:00\"}\"\n>"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:01.3091965+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:01.3091965+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:46:01.331825+00:00"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.", grpc_status:2, created_time:"2024-04-15T06:46:01.3320605+00:00"}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:01.3543447+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\", grpc_status:2, created_time:\"2024-04-15T06:46:01.3320605+00:00\"}\"\n>"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.", grpc_status:2, created_time:"2024-04-15T06:46:02.144337+00:00"}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\", grpc_status:2, created_time:\"2024-04-15T06:46:02.144337+00:00\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:46:02.1659514+00:00"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:02.1796559+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:02.2075313+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:02.1796559+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:03.0038259+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:03.035756+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:03.0038259+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.", grpc_status:2, created_time:"2024-04-15T06:46:03.2637387+00:00"}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:03.2871737+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\", grpc_status:2, created_time:\"2024-04-15T06:46:03.2637387+00:00\"}\"\n>"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.", grpc_status:2, created_time:"2024-04-15T06:46:03.8663072+00:00"}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:03.8920088+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\", grpc_status:2, created_time:\"2024-04-15T06:46:03.8663072+00:00\"}\"\n>"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:04.113053+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:04.1374412+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:04.113053+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:04.7140435+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:04.7140435+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:46:04.7411802+00:00"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:04.9594629+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:04.9828836+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:04.9594629+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:05.5645773+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:05.5645773+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:46:05.5942275+00:00"}"
+>
+Restarting failed Reducer  2
+Reducer 1 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:05.8135102+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:05.8135102+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>", grpc_status:2, created_time:"2024-04-15T06:46:05.8378057+00:00"}"
+>
+Restarting failed Reducer  1
+Reducer 2 gRPC Error: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class 'kmeans_pb2.KeyValuePair'> got <class 'tuple'>."
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:06.4118113+00:00", grpc_status:2, grpc_message:"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>."}"
+>"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-04-15T06:46:06.4383724+00:00", grpc_status:2, grpc_message:"Exception calling application: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.UNKNOWN\n\tdetails = \"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \'kmeans_pb2.KeyValuePair\'> got <class \'tuple\'>.\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {created_time:\"2024-04-15T06:46:06.4118113+00:00\", grpc_status:2, grpc_message:\"Exception calling application: Parameter to MergeFrom() must be instance of same class: expected <class \\\'kmeans_pb2.KeyValuePair\\\'> got <class \\\'tuple\\\'>.\"}\"\n>"}"
+>
+Restarting failed Reducer  2

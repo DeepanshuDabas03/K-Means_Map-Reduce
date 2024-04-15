@@ -81,7 +81,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
 
             reducer_threads = []
             for i in range(self.reducers):
-                thread = threading.Thread(target=self.start_reducer, args=(i, centroids, iteration))
+                thread = threading.Thread(target=self.start_reducer, args=(i+1, centroids, iteration))
                 thread.start()
                 reducer_threads.append(thread)
 
@@ -162,8 +162,8 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                     mapper_addresses=mapper_addresses
                 ))
                 if response.status != kmeans_pb2.ReducerResponse.Status.SUCCESS:
-                    self.restart_worker("Reducer", reducer_id)
                     self.log(f"Reducer {reducer_id}: gRPC RunReduceTask response - FAILURE")
+                    self.restart_worker("Reducer", reducer_id)
                 else:
                     self.log(f"Reducer {reducer_id}: gRPC RunReduceTask response - SUCCESS")
             except grpc.RpcError as e:
@@ -178,7 +178,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
             reducer_address = f'localhost:{6000 + i + 1}'
             with grpc.insecure_channel(reducer_address) as channel:
                 stub = kmeans_pb2_grpc.ReducerServiceStub(channel)
-                response = stub.GetCentroids(kmeans_pb2.GetCentroidsRequest)
+                response = stub.GetCentroids(kmeans_pb2.GetCentroidsRequest())
                 centroids.extend(response.centroids)
         return centroids
 
