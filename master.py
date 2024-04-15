@@ -59,6 +59,10 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
         os.makedirs("Data/dump", exist_ok=True)
         with open(self.dumpFile, "a") as f:
             f.write(message + "\n")
+    def writeOutput(centroids):
+        with open("Data/centroids.txt", "w") as f:
+            for centroid in centroids:
+                f.write(f"{','.join(str(x) for x in centroid.coordinates)}\n")
 
     def start(self):
         points = self.load_data(self.dataFile)
@@ -98,6 +102,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                 process.terminate()
             for process in self.reducersList:
                 process.terminate()
+        master.writeOutput(centroids)
         for process in self.mappersList:
             process.terminate()
         for process in self.reducersList:

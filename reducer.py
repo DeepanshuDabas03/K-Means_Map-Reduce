@@ -45,7 +45,7 @@ class ReducerServer(kmeans_pb2_grpc.ReducerServiceServicer,kmeans_pb2_grpc.Mappe
         self.log(f"Reducer {self.reducerId}: Starting reduce task, mapper addresses: {mapper_addresses}")
         key_value_pairs = load_key_value_pairs(mapper_addresses)
         self.log(f"Reducer {self.reducerId}: Fetched data from mappers") 
-        # Group points by centroid ID
+        # Group points by centroid ID, Shuffle and Sort
         points_by_centroid = {}
         for x in key_value_pairs:
             points_by_centroid.setdefault(x.key, []).append(x.value)
