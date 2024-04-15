@@ -16,8 +16,8 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
         self.reducers = reducers # type: ignore
         self.centroids = centroids # type: ignore 
         self.iterations = iterations   # type: ignore
-        self.dataFile = "input/points.txt" # Location of data file
-        self.dumpFile="dump/master_dump.txt"
+        self.dataFile = "Data/input/points.txt" # Location of data file
+        self.dumpFile="Data/dump/master_dump.txt"
         self.mappersList=[]
         self.reducersList=[]
         self.WORKER_TIMEOUT = 30  # Timeout for worker processes
@@ -56,7 +56,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
         return centroids 
     
     def log(self,message):
-        os.makedirs("dump", exist_ok=True)
+        os.makedirs("Data/dump", exist_ok=True)
         with open(self.dumpFile, "a") as f:
             f.write(message + "\n")
 
@@ -114,7 +114,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
     def start_mapper(self, mapper_id, data_split, centroids, iteration_number):
         mapper_address = f'localhost:{5000 + mapper_id }'
         try:
-            process = subprocess.Popen(["python", "mapper/mapper.py", str(mapper_id),str(self.reducers)])
+            process = subprocess.Popen(["python", "mapper.py", str(mapper_id),str(self.reducers)])
             self.mappersList.append(process)
         except Exception as e:
             self.log(f"Error starting mapper {mapper_id}")
@@ -150,7 +150,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
     def start_reducer(self, reducer_id, centroids, iteration_number):
         reducer_address = f'localhost:{6000 + reducer_id }'  # Reducers on port 6001,6002,6003........
         try:
-            process = subprocess.Popen(["python", "reducer/reducer.py", str(reducer_id)])
+            process = subprocess.Popen(["python", "reducer.py", str(reducer_id)])
             self.reducersList.append(process)
         except Exception as e:
             self.log(f"Error starting reducer {reducer_id}")
@@ -189,7 +189,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
             with grpc.insecure_channel(reducer_address) as channel:
                 stub = kmeans_pb2_grpc.ReducerServiceStub(channel)
                 response = stub.GetCentroids(kmeans_pb2.GetCentroidsRequest())
-                centroids.append(response.centroids)
+                centroids.extend(response.centroids)
     
         return centroids
 

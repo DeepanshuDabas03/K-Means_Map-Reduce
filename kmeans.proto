@@ -51,7 +51,7 @@ message GetCentroidsRequest {
 }
 
 message GetCentroidsResponse {
-    Centroid centroids = 1;       // Updated centroids
+    repeated Centroid centroids = 1;       // Updated centroids
 }
 
 service MapperService {

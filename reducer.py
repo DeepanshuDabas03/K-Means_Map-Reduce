@@ -64,14 +64,16 @@ class ReducerServer(kmeans_pb2_grpc.ReducerServiceServicer,kmeans_pb2_grpc.Mappe
 
     def GetCentroids(self, request, context):
         os.makedirs(f"Data/Reducers", exist_ok=True)
+        lst=[]
         with open(f"Data/Reducers/R{self.reducerId}.txt", "r") as f:
             for l in f:
                 l.strip('\n')
                 d=[]
                 for i in l.split(","):
                     d.append(i)
-        return kmeans_pb2.GetCentroidsResponse(centroids=kmeans_pb2.Centroid(id=int(d[0]),coordinates=[float(x) for x in d[1:]]))
-
+                lst.append(kmeans_pb2.Centroid(id=int(d[0]),coordinates=[float(x) for x in d[1:]]))
+        return kmeans_pb2.GetCentroidsResponse(centroids=lst)
+      
 
 if __name__ == "__main__":
     reducer_id = int(sys.argv[1])
