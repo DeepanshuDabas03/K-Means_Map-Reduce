@@ -106,3 +106,5 @@ if __name__ == "__main__":
     except Exception as e:
         log(f"Unexpected error: {e}", mapper_id)
         server.stop(0)
+        exit(0)
+

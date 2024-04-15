@@ -83,6 +83,7 @@ if __name__ == "__main__":
     except Exception as e:
         print("Error starting server for reducer")
         server.stop(0)
+        exit(0)
     
 
 

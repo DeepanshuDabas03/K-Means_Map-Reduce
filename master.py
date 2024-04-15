@@ -1,4 +1,5 @@
 
+import multiprocessing
 import os
 import random
 import subprocess
@@ -93,12 +94,16 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
             self.log("Centroids: ")
             for centroid in centroids:
                 self.log(str(centroid))
-        self.log("KMeans Clustering Completed")
-        self.log(str(threading.activeCount()))
-       
+            for process in self.mappersList:
+                process.terminate()
+            for process in self.reducersList:
+                process.terminate()
+        for process in self.mappersList:
+            process.terminate()
+        for process in self.reducersList:
+            process.terminate()
+        print("KMeans Clustering Completed")
     
-
-
     def restart_worker(self, worker_type, worker_id,centroids,iteration_number,data_split=None):  # Simplified restart
         self.log(f"Restarting failed {worker_type}  {worker_id}")
         if worker_type == "Mapper":
@@ -110,6 +115,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
         mapper_address = f'localhost:{5000 + mapper_id }'
         try:
             process = subprocess.Popen(["python", "mapper/mapper.py", str(mapper_id),str(self.reducers)])
+            self.mappersList.append(process)
         except Exception as e:
             self.log(f"Error starting mapper {mapper_id}")
         self.monitor_mapper(mapper_id, process, mapper_address, data_split, centroids, iteration_number)
@@ -128,8 +134,6 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                 if response.status != kmeans_pb2.MapperResponse.Status.SUCCESS:
                     self.log(f"Mapper {mapper_id}: gRPC RunMapTask response - FAILURE")
                     process.terminate()
-                    process.kill()
-                    process.wait()
                     self.restart_worker("Mapper", mapper_id)
                 else:
                     self.log(f"Mapper {mapper_id}: gRPC RunMapTask response - SUCCESS")
@@ -137,8 +141,8 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
 
                 self.log(f"Mapper {mapper_id} gRPC Error: {e}")
                 process.terminate()
-                process.kill()
-                process.wait()
+    
+    
                 self.restart_worker("Mapper", mapper_id,centroids,iteration_number,data_split=data_split)
             finally:
                 channel.close()
@@ -147,6 +151,7 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
         reducer_address = f'localhost:{6000 + reducer_id }'  # Reducers on port 6001,6002,6003........
         try:
             process = subprocess.Popen(["python", "reducer/reducer.py", str(reducer_id)])
+            self.reducersList.append(process)
         except Exception as e:
             self.log(f"Error starting reducer {reducer_id}")
         self.monitor_reducer(reducer_id, process, reducer_address, centroids, iteration_number)
@@ -166,16 +171,12 @@ class master(kmeans_pb2_grpc.MapperServiceServicer, kmeans_pb2_grpc.ReducerServi
                 if response.status != kmeans_pb2.ReducerResponse.Status.SUCCESS:
                     self.log(f"Reducer {reducer_id}: gRPC RunReduceTask response - FAILURE")
                     process.terminate()
-                    process.kill()
-                    process.wait()
                     self.restart_worker("Reducer", reducer_id)
                 else:
                     self.log(f"Reducer {reducer_id}: gRPC RunReduceTask response - SUCCESS")
             except grpc.RpcError as e:
                 self.log(f"Reducer {reducer_id} gRPC Error: {e}")
                 process.terminate()
-                process.kill()
-                process.wait()
                 self.restart_worker("Reducer", reducer_id,centroids,iteration_number)
             finally:
                 channel.close()
