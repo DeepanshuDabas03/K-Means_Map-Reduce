@@ -1,0 +1,556 @@
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Starting server on port 5001
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Starting server on port 5001
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 1
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 2
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 3
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 4
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 5
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 6
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 7
+Starting server on port 5001
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 8
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 9
+Starting server on port 5001
+Loaded 4 points from range 0-4
+Partitioned output into 3 partitions
+Completed map task for iteration 10
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.
+Starting server on port 5001
+Unexpected error: Failed to bind to address [::]:5001; set GRPC_VERBOSITY=debug environment variable to see detailed error message.

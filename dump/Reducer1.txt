@@ -1,0 +1,456 @@
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 1, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 2, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 3, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 4, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 5, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 6, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 7, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 8, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001
+Reducer 1: Starting reduce task, iteration 9, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Starting reduce task, iteration 10, mapper addresses: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004', 'localhost:5005']
+Reducer 1: Initialized on port 6001
+Reducer 1: Fetched data from mappers
+Reducer 1: Completed reduce task
+Reducer 1: Initialized on port 6001
+Reducer 1: Initialized on port 6001

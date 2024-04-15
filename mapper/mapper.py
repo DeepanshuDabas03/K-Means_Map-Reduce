@@ -74,7 +74,7 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
     
     def GetPartitionData(self, request, context):
         reducer_id = request.reducer_id
-        partition_file = f"M{self.mapper_id}/partition_{reducer_id}.txt"
+        partition_file = f"M{self.mapper_id}/partition_{reducer_id-1}.txt"
         key_value_pairs = []
         if os.path.exists(partition_file):
             with open(partition_file, "r") as f:
@@ -84,7 +84,8 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
                         centroid_id, x,y = line.strip().split()
                         point = kmeans_pb2.Point(coordinates=[float(x), float(y)]) 
                         # Deserialize the Point object (if needed)
-                        key_value_pairs.append((int(centroid_id), point))
+                        
+                        key_value_pairs.append(kmeans_pb2.KeyValuePair(key=int(centroid_id), value=point))
                     except Exception as e:
                         print(f"Error parsing line: {line} - {e}")
 
@@ -96,8 +97,8 @@ if __name__ == "__main__":
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))  
     kmeans_pb2_grpc.add_MapperServiceServicer_to_server(MapperServer(num_reducers, mapper_id), server)
     log(f"Starting server on port {5000 + mapper_id}", mapper_id)
-    server.add_insecure_port(f'[::]:{5000 + mapper_id}')
     try:  
+        server.add_insecure_port(f'[::]:{5000 + mapper_id}')
         server.start()
         server.wait_for_termination()
     except KeyboardInterrupt:

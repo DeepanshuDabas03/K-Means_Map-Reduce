@@ -47,34 +47,42 @@ class ReducerServer(kmeans_pb2_grpc.ReducerServiceServicer,kmeans_pb2_grpc.Mappe
         self.log(f"Reducer {self.reducerId}: Fetched data from mappers") 
         # Group points by centroid ID
         points_by_centroid = {}
-        for centroid_id, point in key_value_pairs:
-            points_by_centroid.setdefault(centroid_id, []).append(point)
+        for x in key_value_pairs:
+            points_by_centroid.setdefault(x.key, []).append(x.value)
 
         # Calculate new centroids
         new_centroids = []
         for centroid_id, points in points_by_centroid.items():
             new_centroid = calculate_new_centroid(points=points,centroid_id=centroid_id)
             new_centroids.append(new_centroid)
-
         # Write new centroids to a file
         with open(f"R{self.reducerId}.txt", "w") as f:
             for centroid in new_centroids:
-                f.write(str(centroid) + "\n")  
+                f.write(f"{centroid.id},{','.join(str(x) for x in centroid.coordinates)}")
             self.log(f"Reducer {self.reducerId}: Completed reduce task")
         return kmeans_pb2.ReducerResponse(status=kmeans_pb2.ReducerResponse.Status.SUCCESS)
 
     def GetCentroids(self, request, context):
         with open(f"R{self.reducerId}.txt", "r") as f:
-            centroids = [kmeans_pb2.Centroid.FromString(line) for line in f]
-        return kmeans_pb2.GetCentroidsResponse(centroids=centroids)
+            for l in f:
+                l.strip('\n')
+                d=[]
+                for i in l.split(","):
+                    d.append(i)
+        return kmeans_pb2.GetCentroidsResponse(centroids=kmeans_pb2.Centroid(id=int(d[0]),coordinates=[float(x) for x in d[1:]]))
 
 
 if __name__ == "__main__":
     reducer_id = int(sys.argv[1])
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))  
     kmeans_pb2_grpc.add_ReducerServiceServicer_to_server(ReducerServer(reducer_id=reducer_id), server)
-    server.add_insecure_port(f'[::]:{6000 + reducer_id}') 
-    server.start()
-    server.wait_for_termination()
+    try:
+        server.add_insecure_port(f'[::]:{6000 + reducer_id}') 
+        server.start()
+        server.wait_for_termination()
+    except Exception as e:
+        print("Error starting server for reducer")
+        server.stop(0)
+    
 
 
