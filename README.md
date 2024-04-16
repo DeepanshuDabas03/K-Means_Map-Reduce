@@ -47,9 +47,7 @@ kmeans.proto                       # Protobuf definitions
 
 **Running the Code**
 
-1.  **Start Mappers and Reducers:** Launch mapper and reducer processes manually or have the master script spawn them. Ensure that the number of processes matches the provided arguments.
-
-2.  **Execute Master:**
+**Execute Master:**
     ```bash
     python master.py <number_of_mappers> <number_of_reducers> <number_of_centroids> <number_of_iterations>
     ```
