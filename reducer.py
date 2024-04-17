@@ -1,12 +1,13 @@
 import sys
 import os
 import grpc
+import random
 from concurrent import futures
 import kmeans_pb2 #type: ignore
 import kmeans_pb2_grpc #type: ignore
 
 
-def load_key_value_pairs(mapper_addresses):
+def load_key_value_pairs(mapper_addresses, reducer_id):
     all_data = []
     for address in mapper_addresses:
         with grpc.insecure_channel(address) as channel:
@@ -43,8 +44,17 @@ class ReducerServer(kmeans_pb2_grpc.ReducerServiceServicer,kmeans_pb2_grpc.Mappe
         mapper_addresses=request.mapper_addresses
         self.log(f"Iteration Number: {iteration_number}")
         self.log(f"Reducer {self.reducerId}: Starting reduce task, mapper addresses: {mapper_addresses}")
-        key_value_pairs = load_key_value_pairs(mapper_addresses)
+
+        # Simulate fault tolerance
+        if random.random() < 0.2:  # Probability for failure is 0.5
+            self.log("Reducer task failed due to simulated fault")
+            return kmeans_pb2.ReducerResponse(status=kmeans_pb2.ReducerResponse.Status.FAILURE)
+
+        key_value_pairs = load_key_value_pairs(mapper_addresses, self.reducerId)
+
         self.log(f"Reducer {self.reducerId}: Fetched data from mappers") 
+        self.log(f"Fetched data from mappers {key_value_pairs}")
+
         # Group points by centroid ID, Shuffle and Sort
         points_by_centroid = {}
         for x in key_value_pairs:
