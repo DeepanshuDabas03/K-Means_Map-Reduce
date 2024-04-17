@@ -2,6 +2,7 @@ import math
 import os
 import sys
 import grpc
+import random
 from concurrent import futures
 import kmeans_pb2 #type:ignore
 import kmeans_pb2_grpc  #type:ignore
@@ -48,6 +49,11 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
         iteration_number = request.iteration_number
         log(f"Starting map task for iteration {iteration_number}", self.mapper_id)
 
+        # Simulate fault tolerance
+        if random.random() < 0.2:  # Probability for failure is 0.5
+            log("Mapper task failed due to simulated fault", self.mapper_id)
+            return kmeans_pb2.MapperResponse(status=kmeans_pb2.MapperResponse.Status.FAILURE)
+        
         key_value_pairs = []
         for point in points:
             closest_centroid_id = None
@@ -65,7 +71,10 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
         partitions = partition_output(key_value_pairs, num_reducers, self.mapper_id)
         os.makedirs(f"Data/Mappers/M{mapper_id}", exist_ok=True) # Create directory if it doesn't exist
         for i, partition in enumerate(partitions):
-            with open(f"Data/Mappers/M{self.mapper_id}/partition_{i}.txt", "w") as f: 
+            if partition == []:
+                continue
+            pid = partitions[i][0][0]
+            with open(f"Data/Mappers/M{self.mapper_id}/partition_{pid}.txt", "w") as f: 
                 for centroid_id, point in partition:
                     point_str = " ".join(str(coord) for coord in point.coordinates)
                     f.write(f"{centroid_id} {point_str}\n")  # Adjust serialization if needed
@@ -74,8 +83,9 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
         return kmeans_pb2.MapperResponse(status=kmeans_pb2.MapperResponse.Status.SUCCESS)
     
     def GetPartitionData(self, request, context):
+        log(f"Fetching partition data for reducer {request.reducer_id}", self.mapper_id)
         reducer_id = request.reducer_id
-        partition_file = f"Data/Mappers/M{self.mapper_id}/partition_{reducer_id-1}.txt"
+        partition_file = f"Data/Mappers/M{self.mapper_id}/partition_{reducer_id}.txt"
         key_value_pairs = []
         if os.path.exists(partition_file):
             with open(partition_file, "r") as f:
