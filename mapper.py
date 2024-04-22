@@ -74,7 +74,7 @@ class MapperServer(kmeans_pb2_grpc.MapperServiceServicer):
             if partition == []:
                 continue
             pid = partitions[i][0][0]
-            with open(f"Data/Mappers/M{self.mapper_id}/partition_{pid}.txt", "w") as f: 
+            with open(f"Data/Mappers/M{self.mapper_id}/partition_{i+1}.txt", "w") as f: 
                 for centroid_id, point in partition:
                     point_str = " ".join(str(coord) for coord in point.coordinates)
                     f.write(f"{centroid_id} {point_str}\n")  # Adjust serialization if needed

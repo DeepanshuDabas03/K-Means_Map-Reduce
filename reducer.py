@@ -69,7 +69,7 @@ class ReducerServer(kmeans_pb2_grpc.ReducerServiceServicer,kmeans_pb2_grpc.Mappe
         os.makedirs(f"Data/Reducers", exist_ok=True)
         with open(f"Data/Reducers/R{self.reducerId}.txt", "w") as f:
             for centroid in new_centroids:
-                f.write(f"{centroid.id},{','.join(str(x) for x in centroid.coordinates)}")
+                f.write(f"{centroid.id},{','.join(str(x) for x in centroid.coordinates)} \n")
             self.log(f"Reducer {self.reducerId}: Completed reduce task")
         return kmeans_pb2.ReducerResponse(status=kmeans_pb2.ReducerResponse.Status.SUCCESS)
 
